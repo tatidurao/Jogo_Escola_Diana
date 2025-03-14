@@ -3,7 +3,7 @@ var pc, pc_CostaM, pc_DireitaM, pc_EsquerdaM, pc_FrenteM, pc_CostaP, pc_DireitaP
 var nerd, nerdImage
 
 //variavel botoes
-var buttonMissao1, 
+var buttonMissao1 
 var backgroundImage1, backgroundImage2
 
 //sinalizadores de movimento
@@ -16,7 +16,7 @@ var cena = 1
 var star, star_display
 var star_img, empty_star, one_star, two_star
 
-/
+
 function preload() {
   //jogo principal
   backgroundImage1 = loadImage("mapa3.jpg");
