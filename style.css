@@ -6,9 +6,9 @@ html, body {
 /* CHATBOX*/
 .chatbox {
   position: fixed;
-  bottom: 50px;
-  right: 370px; 
-  width: 500px;
+  bottom: 30%;
+  right: 40%; 
+  width: 45%;
  
 }
 
@@ -30,7 +30,7 @@ html, body {
 }
 .chatbox__header {    
   padding: 5px;
-  background: #155706;
+  background: #00505b;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   font-family: cursive;    
@@ -44,8 +44,8 @@ html, body {
 
 /* Messages */
 .chatbox__messages__cotainer {      
-  height: 500px;    
-  background: #54a254; 
+  height: 50%;    
+  background: #0ca6e3; 
   opacity: 0.9;
   font-family: cursive;
   overflow-x:hidden;
@@ -65,7 +65,8 @@ html, body {
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   flex-direction: column-reverse;
-  margin-left: auto;      
+  margin-left: auto;   
+  font-size: 0.7rem;   
 }
 
 .bot__messages {
@@ -79,12 +80,13 @@ html, body {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-right: auto;
+  font-size: 0.7rem;
 }
 
 /* Footer */
 .chatbox__footer {
   padding: 10px;  
-  background: #155706;    
+  background: #025470;    
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
