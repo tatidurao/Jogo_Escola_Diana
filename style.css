@@ -1,14 +1,23 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #000;
 }
 
 /* CHATBOX*/
 .chatbox {
   position: fixed;
-  bottom: 30%;
-  right: 40%; 
-  width: 45%;
+  bottom: 450px;
+  right: 500px; 
+  width: 300px;
+ height: 200px;
+}
+.chatbox2 {
+  position: fixed;
+  bottom: 450px;
+  right: 500px; 
+  width: 300px;
+ height: 200px;
  
 }
 
@@ -17,6 +26,12 @@ html, body {
  /* visibility: hidden; */
  padding: 5px;  
 }
+.chatbox__chat2 {
+  display: none; 
+  /* visibility: hidden; */
+  padding: 5px;  
+ }
+ 
 
 
 /* Header*/
